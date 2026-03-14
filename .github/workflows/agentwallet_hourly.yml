@@ -2,7 +2,7 @@ name: AgentWallet Hourly Full Test
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour, 24x per day
+    - cron: '1 * * * *'  # Every hour, 24x per day
   workflow_dispatch:     # Manual trigger
 
 jobs:
